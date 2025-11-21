@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "total_tests": 13,
+    "passed_tests": 12,
+    "failed_tests": 1,
+    "success_rate": "92.3%"
+  },
+  "test_results": [
+    {
+      "test": "Health Check",
+      "status": "PASS",
+      "details": "Status: 200",
+      "timestamp": "2025-11-19T01:10:49.615920"
+    },
+    {
+      "test": "User Registration",
+      "status": "PASS",
+      "details": "Status: 201",
+      "timestamp": "2025-11-19T01:10:49.903694"
+    },
+    {
+      "test": "Pre-Login Registration",
+      "status": "PASS",
+      "details": "Status: 201",
+      "timestamp": "2025-11-19T01:10:50.167032"
+    },
+    {
+      "test": "User Login",
+      "status": "PASS",
+      "details": "Status: 200",
+      "timestamp": "2025-11-19T01:10:50.431959"
+    },
+    {
+      "test": "Get User Profile",
+      "status": "PASS",
+      "details": "Status: 200",
+      "timestamp": "2025-11-19T01:10:50.468032"
+    },
+    {
+      "test": "Protected Route (No Auth)",
+      "status": "FAIL",
+      "details": "Expected 401, got 403. Error: Not authenticated",
+      "timestamp": "2025-11-19T01:10:50.508614"
+    },
+    {
+      "test": "Budget Plan Creation",
+      "status": "PASS",
+      "details": "Status: 200",
+      "timestamp": "2025-11-19T01:10:50.562126"
+    },
+    {
+      "test": "Budget Plan Response Structure",
+      "status": "PASS",
+      "details": "All required fields present",
+      "timestamp": "2025-11-19T01:10:50.562620"
+    },
+    {
+      "test": "Get Financial Tips",
+      "status": "PASS",
+      "details": "Status: 200",
+      "timestamp": "2025-11-19T01:10:50.599605"
+    },
+    {
+      "test": "Tips Response Structure",
+      "status": "PASS",
+      "details": "All required fields present",
+      "timestamp": "2025-11-19T01:10:50.600137"
+    },
+    {
+      "test": "Support Request",
+      "status": "PASS",
+      "details": "Status: 201",
+      "timestamp": "2025-11-19T01:10:50.650756"
+    },
+    {
+      "test": "Support Request Response",
+      "status": "PASS",
+      "details": "Request ID: 26fa780e-bd3f-43ec-940b-163b4956ffcf",
+      "timestamp": "2025-11-19T01:10:50.651223"
+    },
+    {
+      "test": "Invalid Endpoint",
+      "status": "PASS",
+      "details": "Status: 404",
+      "timestamp": "2025-11-19T01:10:50.687941"
+    }
+  ]
+}
